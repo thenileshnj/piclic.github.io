@@ -1,0 +1,140 @@
+#{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*.mainpage{
+	width: 90%;
+	margin: 0 auto;
+}*/
+
+
+.navmenu li{
+	font-family: 'Signika', sans-serif;
+	font-size: 20px;
+}
+
+.navmenu li a:hover{
+	border-radius: 222px;
+	background-image: 
+	linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.mainlogo{
+	height: 60px;
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 100%;
+}
+
+
+.pageslider{
+   width: 80%;
+   height: 80%;
+   margin: 0 auto;
+}
+
+.mywork{
+	margin: 25px 10px;
+	padding: 5px 5px;
+}
+
+.titles h2{
+	margin: 15px auto;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+
+.workg{
+	margin: 20px auto;
+}
+
+.workbox{
+	padding: 1px auto;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.workbox div h3{
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+.workbox div p{
+	font-family: 'Lato', sans-serif;
+
+}
+
+.workbox:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #f72013;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	transform: rotate(-90deg);
+	transform-origin: bottom left;
+	transition: all 0.7s;
+
+}
+.workbox:hover:before{
+	transform: rotate(0deg);
+
+}
+
+.gallery{
+	margin: 20px auto;
+}
+
+.aboutsec{
+	font-family: 'Lobster Two', cursive;
+	background-color: rgba(66, 242, 245, 0.2);
+	padding: 40px 10px;
+	margin: 20px auto; 
+	border-radius: 80px;
+}
+
+
+.contactbox{
+	padding: 10px 10px;
+	margin: 20px auto;
+	background-color: rgba(66, 242, 245, 0.2);
+	border-radius: 80px;
+}
+
+.condetail{
+	align-items: center;
+	margin: 10px auto;
+}
+
+.condetail div{
+	padding: 40px auto;
+	text-align: center;
+}
+
+.smlogo{
+	margin:15px auto;	
+}
+
+.smlogo ul{
+	list-style-type: none;
+	text-align: center;
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	margin: auto;
+}
+.smlogo ul li{
+	padding:auto;
+}
