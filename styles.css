@@ -138,3 +138,8 @@ html {
 .smlogo ul li{
 	padding:auto;
 }
+
+.copyright{
+	text-align: center;
+	margin-top: 10px;
+}
