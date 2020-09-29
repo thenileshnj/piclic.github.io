@@ -142,7 +142,7 @@ html {
 .copyright{
 	justify-content:center;
 	text-align: center;
-	widows: 25%;
+	/* widows: 25%; */
 	margin: auto;
 	padding: auto;
 }
