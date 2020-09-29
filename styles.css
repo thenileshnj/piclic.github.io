@@ -142,6 +142,7 @@ html {
 .copyright{
 	display: flex;
 	text-align: center;
+	widows: 25%;
 	margin: auto;
 	padding: auto;
 }
