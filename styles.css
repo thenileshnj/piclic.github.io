@@ -140,7 +140,7 @@ html {
 }
 
 .copyright{
-	display: flex;
+	justify-content:center;
 	text-align: center;
 	widows: 25%;
 	margin: auto;
